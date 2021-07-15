@@ -1,0 +1,1 @@
+# winmodel-validator-ts-sample
