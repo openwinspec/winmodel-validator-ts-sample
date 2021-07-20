@@ -4,11 +4,13 @@
     "module": "commonjs",
     "lib": ["es6"],
     "allowJs": true,
+    "baseUrl": ".",
     "outDir": "build",
     "rootDir": "src",
     "strict": true,
     "noImplicitAny": true,
     "esModuleInterop": true,
     "resolveJsonModule": true
-  }
+  },
+  "include": ["src/**/*"]
 }
