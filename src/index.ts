@@ -3,9 +3,11 @@ const fs = require('fs');
 
 let rawdata = fs.readFileSync('./src/sample.model.json');
 
+let model = JSON.parse(rawdata);
+
 console.time('valadate time: ');
 
-validate(rawdata)
+validate(model)
   .then((result) => {
     console.log('Success');
   })
