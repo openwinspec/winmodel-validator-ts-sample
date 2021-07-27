@@ -27,6 +27,6 @@
     "typescript": "^4.3.5"
   },
   "dependencies": {
-    "winmodel-validator-ts": "^1.0.5"
+    "winmodel-validator-ts": "^1.1.0"
   }
 }

@@ -9,7 +9,7 @@ console.time('valadate time: ');
 
 validate(model)
   .then((result) => {
-    console.log('Success');
+    console.log('Success:', result);
   })
   .catch((error) => {
     console.log('Error: ', error);
